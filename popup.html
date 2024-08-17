@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>Currency Converter</h2>
+    <input type="number" id="amount" placeholder="Enter amount" min="0">
+    <select id="currency">
+        <option value="EUR">Euro (EUR)</option>
+        <option value="GBP">British Pound (GBP)</option>
+        <option value="JPY">Japanese Yen (JPY)</option>
+        <option value="AUD">Australian Dollar (AUD)</option>
+        <option value="NPR">Nepalese Rupee (NPR)</option>
+        <option value="CAD">Canadian Dollar (CAD)</option>
+        <option value="CHF">Swiss Franc (CHF)</option>
+        <option value="CNY">Chinese Yuan (CNY)</option>
+        <option value="INR">Indian Rupee (INR)</option>
+        <option value="MXN">Mexican Peso (MXN)</option>
+        <option value="SEK">Swedish Krona (SEK)</option>
+        <option value="NZD">New Zealand Dollar (NZD)</option>
+        <!-- Add more currencies as needed -->
+    </select>
+    <button id="convert">Convert to USD</button>
+    <p id="result"></p>
+    <p id="error" style="display:none;"></p>
+    <script src="popup.js"></script>
+</body>
+</html>
